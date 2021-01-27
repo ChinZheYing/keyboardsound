@@ -3,10 +3,6 @@ from pygame import mixer  # Load the popular external library
 import time
 from pynput.keyboard import Key, Listener
 
-from tkinter import *
-from tkinter import messagebox
-
-
 pygame.mixer.pre_init(44100, -16, 1, 512)
 mixer.init()
 
